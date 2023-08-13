@@ -1,0 +1,95 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
+<html>
+<style>
+    #Position {
+        position: absolute;
+        bottom: 5;
+        left: 0;
+        z-index : -1;
+    }
+    .bottom-left {
+      position: absolute;
+      bottom: 357px;
+      left: 190px;
+      background-color:White;
+      width: 160px;
+      padding: 3px;
+      border: 2px solid black;
+      color: green;
+      z-index: 1;
+    }
+    .top-left {
+      position: absolute;
+      top: 56px;
+      left: 0px;
+    }
+
+
+
+</style>
+<body>
+
+<img id = "Position" src={{url_for('static', filename='cl.jpg')}} alt="CoastLine" usemap="#coast" width="float:left"/>
+<map name="coast">
+    <area shape="poly" coords="3,229,199,266,190,298,2,266"  href="http://127.0.0.1:5000/Beach1"/>
+    <area shape="poly" coords="223,269,325,300,318,325,216,301"  href="http://127.0.0.1:5000/Beach2"/>
+    <area shape="poly" coords="394,317,535,369,528,393,389,342"  href="http://127.0.0.1:5000/Beach3"/>
+    <area shape="poly" coords="541,370,593,387,584,411,530,395"  href="http://127.0.0.1:5000/Beach4"/>
+    <area shape="poly" coords="687,423,809,468,801,495,677,450"  href="http://127.0.0.1:5000/Beach5"/>
+    <area shape="poly" coords="879,496,943,487,954,517,889,527"  href="http://127.0.0.1:5000/Beach6"/>
+    <area shape="poly" coords="960,484,1016,495,1163,600,1142,627,968,517"  href="http://127.0.0.1:5000/Beach7"/>
+    <area shape="poly" coords="1494,723,1515,742,1504,755,1483,739"  href="http://127.0.0.1:5000/Beach8"/>
+    <area shape="poly" coords="1758,683,1815,622,1837,640,1788,705"  href="http://127.0.0.1:5000/Beach9"/>
+    <area shape="poly" coords="1820,619,1873,544,1917,516,1919,547,1840,634"  href="http://127.0.0.1:5000/Beach10"/>
+</map>
+
+<div class="top-left">
+    <svg height="1000" width="1000" fill-opacity="0.7">
+        <polygon points="223,269 325,300 318,325 216,301" style="fill:red;stroke:red;stroke-width:1" />
+    </svg>
+</div>
+
+
+
+
+
+
+<div class="bottom-left">
+    S͟a͟f͟e͟ f͟o͟r͟:<br />
+    {% if wading == True%}
+    Wading<br />
+    {%endif%}
+    {% if watersports == True%}
+    watersports<br />
+    {%endif%}
+    {% if swimming == True%}
+    swimming<br />
+    {%endif%}
+    <font color="#FF2626">
+        N͟o͟t͟ s͟a͟f͟e͟ f͟o͟r͟:<br />
+        {% if wading == False%}
+        Wading<br />
+        {%endif%}
+        {% if watersports == False%}
+        watersports<br />
+        {%endif%}
+        {% if swimming == False%}
+        swimming
+        {%endif%}
+    </font>
+    <form action = "http://127.0.0.1:5000/">
+        <button>
+            Back
+        </button>
+    </form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+{% endblock %}
