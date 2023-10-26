@@ -1,28 +1,39 @@
 {% extends "base.html" %} {% block title %}Specific Beach information{% endblock %} {% block content
 %}
-<form method="POST">
-    <h3 align="center">Login</h3>
-    <div class="form-group">
-        <label for="email">Email Address</label>
-        <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="email"
-                placeholder="Enter email"
-        />
+<html>
+<style>
+    .Beach1x {
+      position: relative;
+      top: 10px;
+      left: 0px;
+      background-color: White;
+      width: 300px;
+      padding: 3px;
+      border: 2px solid black;
+      text-align: center;
+
+    }
+    .Image {
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+    .Beach1 {
+      position: fixed;
+      float:left;
+      width: 0%;
+    }
+
+</style>
+<body>
+
+<div class="Beach1">
+    <b><u>West Brighton Beach</u></b>
+    <div class="Image">
+        <img src={{url_for('static', filename='Beach1.jpg')}} height="100" width="130">
     </div>
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input
-                type="password"
-                class="form-control"
-                id="password"
-                name="password"
-                placeholder="Enter password"
-        />
-    </div>
-    <br />
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
+</div>
+
+</body>
+</html>
 {% endblock %}
