@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="636ffa0c-1117-4b84-a8c7-cf52ef498431" name="Default Changelist" comment="" />
+    <list default="true" id="636ffa0c-1117-4b84-a8c7-cf52ef498431" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/website/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swimapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swimmers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/ImportTides.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/ImportTides.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/ImportWeatherConditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/ImportWeatherConditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/SafeOrNot.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/SafeOrNot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/Templates/Specific Beach information.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/Templates/Specific Beach information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/auth.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,11 +26,12 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ss" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2SWUTD9v8X2eQY11u2Ec2zNpZ2r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,11 +43,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -44,7 +59,135 @@
       <recent name="D:\College work\Computer Sience\Coursework\website\Static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="[]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ImportTides" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Flask test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/website/ImportTides.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SafeOrNot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Flask test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/website/SafeOrNot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Flask test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/website" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/website/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Flask test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="auth" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Flask test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/website/auth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Flask test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,9 +195,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -66,9 +209,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Flask test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jackw\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.[]" />
+      <item itemvalue="Python.ImportTides" />
+      <item itemvalue="Python.SafeOrNot" />
+      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.auth" />
+      <item itemvalue="Python.main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -98,61 +272,61 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1691767413221">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1693232775709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1691767413221" />
-    <state x="1131" y="268" key="FileChooserDialogImpl" timestamp="1691774318058">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1693232775709" />
+    <state x="686" y="154" key="#main" timestamp="1693232572032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1131" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1691774318058" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1691859889022">
+    <state x="686" y="154" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1693232572032" />
+    <state x="1131" y="268" key="FileChooserDialogImpl" timestamp="1697646746418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1691859889022" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1691859889022">
+    <state x="1131" y="268" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1697646746418" />
+    <state width="916" height="249" key="GridCell.Tab.0.bottom" timestamp="1697661553587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1691859889022" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1691859889022">
+    <state width="916" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1697661553587" />
+    <state width="916" height="249" key="GridCell.Tab.0.center" timestamp="1697661553587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1691859889022" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1691859889022">
+    <state width="916" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1697661553587" />
+    <state width="916" height="249" key="GridCell.Tab.0.left" timestamp="1697661553587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1691859889022" />
-    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1691847057549">
+    <state width="916" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1697661553587" />
+    <state width="916" height="249" key="GridCell.Tab.0.right" timestamp="1697661553587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1691847057549" />
-    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1691847057549">
+    <state width="916" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1697661553587" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1693435715691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1691847057549" />
-    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1691847057549">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1693435715691" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1693435715691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1691847057549" />
-    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1691847057549">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1693435715691" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1693435715690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1691847057549" />
-    <state x="464" y="100" width="1035" height="474" key="SettingsEditor" timestamp="1689351795774">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1693435715690" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1693435715691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="100" width="1035" height="474" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1689351795774" />
-    <state x="1148" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1691765460540">
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1693435715691" />
+    <state x="926" y="166" key="SettingsEditor" timestamp="1698326924908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1148" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1691765460540" />
-    <state x="685" y="232" key="new project wizard" timestamp="1691857725512">
+    <state x="926" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698326924908" />
+    <state x="1175" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1698326892691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="232" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1691857725512" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1689348730361">
+    <state x="1175" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698326892691" />
+    <state x="685" y="232" key="new project wizard" timestamp="1693047030793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1689348730361" />
+    <state x="685" y="232" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1693047030793" />
   </component>
 </project>
