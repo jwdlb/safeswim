@@ -1,7 +1,7 @@
 # SafeSwim
 SafeSwim is a html and python application, which tells swimmers whether an area of coastlin is safe to swim in, using real time weather and tidal data.
 
-<img src="NNImg.png">
+<img src="ApplicationImg.png">
 
 ## Features
 
